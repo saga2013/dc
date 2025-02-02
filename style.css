@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-family: Kanit;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 38.87px;
+
+}
+
+#send{
+    width: 44px;
+    height: 28px;
+}
+
+#daynight{
+    width: 48px;
+    height: 28px;
+}
+input{
+    width: 595px;
+    height: 48px;
+}
+
+#tasklist{
+    width: 520px;
+    height: 545px;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+
+.li-element{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #6c63ff;
+}
+
+body{
+    background-color: white;
+    color: red;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
